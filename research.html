@@ -132,6 +132,42 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- team -->
 <div class="team">
     <div class="container">
+        <h3 class="animated wow zoomIn" data-wow-delay="0s">Rock Raiders</h3>
+        <div class="about-grids">
+            <div class="col-md-6 about-grids-left">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body panel_text">
+								The project for Intelligent Ground Vehicle Competition(IGVC). It is a kind of 
+								self-driving car competition. My task was to read visual data from the ZED camera 
+								and develop the lane detection and obstacle avoidance algorithm. In the competition, 
+								the lane was white, painting on the grass. The detection accuracy widely varied 
+								based on the clearness of the painting and weather conditions. Therefore, I implemented 
+								a spatial CNN approach to detect white lines instead of white pixels. For obstacle 
+								avoidance, I programmed the rover to obtain the depth data from the ZED camera and 
+								searched the obstacles according to the height. After getting the location of the 
+								lanes and barriers, I utilized GPS and ROS navigation stack maps, consisting of an 
+								obstacle layer and a lane layer, to generate the path, which would guide the vehicle 
+								to the desired positions.
+								<br>
+								<a href="assets/igvc_design_report.pdf">Report</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 about-grids-right animated wow slideInLeft" data-wow-delay="0s">
+                <img src="assets/rock-raiders.png" alt=" " class="img-responsive" />
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>
+<!-- //about -->
+<!-- team -->
+<div class="team">
+    <div class="container">
         <h3 class="animated wow zoomIn" data-wow-delay="0s">Randomness Test For Bridge Game</h3>
         <div class="about-grids">
             <div class="col-md-6 about-grids-left">
